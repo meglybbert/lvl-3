@@ -93,11 +93,19 @@
 		"oAP": "\/build\/html\/scripts.html",
 		"oF": 0
 		},
-	"\/img\/crane.jpg": {
-		"ft": 16384,
-		"iS": 448427,
+	"\/img\/astronaut.gif": {
+		"ft": 4194304,
+		"iS": 290235,
 		"oA": 0,
-		"oAP": "\/build\/img\/crane.jpg",
+		"oAP": "\/build\/img\/astronaut.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/cosmic.jpg": {
+		"ft": 16384,
+		"iS": 9803323,
+		"oA": 0,
+		"oAP": "\/build\/img\/cosmic.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -189,6 +197,14 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/kitty.gif": {
+		"ft": 4194304,
+		"iS": 573132,
+		"oA": 0,
+		"oAP": "\/build\/img\/kitty.gif",
+		"oF": 0,
+		"opt": 1
+		},
 	"\/img\/menu.png": {
 		"ft": 32768,
 		"iS": 598,
@@ -199,6 +215,14 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
+		},
+	"\/img\/taco.gif": {
+		"ft": 4194304,
+		"iS": 398223,
+		"oA": 0,
+		"oAP": "\/build\/img\/taco.gif",
+		"oF": 0,
+		"opt": 1
 		},
 	"\/index.kit": {
 		"ft": 2048,
@@ -243,7 +267,7 @@
 	"displayValue": "lvl-3",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-dunnoGirl",
-	"lastBuiltDate": 515192629
+	"lastBuiltDate": 515193273
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

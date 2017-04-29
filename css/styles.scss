@@ -1,3 +1,118 @@
 /* Stylesheet */
 @import "semantic";
 
+:root {
+  --base: #ff00ff;
+  --spacing: 10px;
+  --blur: 10px;
+  --zindex: 20;
+}
+
+.space {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+  z-index: var(--zindex); 
+  position: relative;
+  max-width: 800px;
+}
+
+.hl {
+  color: var(--base);
+}
+
+/*
+  misc styles, nothing to do with CSS variables
+*/
+
+body {
+  text-align: center;
+}
+
+body {
+  background: #000000;
+  color: white;
+  font-family: 'helvetica neue', sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+}
+
+.controls {
+  margin-bottom: 50px;
+}
+
+input {
+  width: 100px;
+}
+
+.behind {
+    position: relative;
+}
+
+h5 {
+    z-index: 6;
+    top: -400px;
+}
+
+h4 {
+    z-index: 12;
+    top: -200px;
+    left: px;
+}
+
+h3 {
+    z-index: 8;
+    top: -330px;
+    left: -200px;
+    color: greenyellow;
+    transform: rotate(30deg);
+}
+
+h6 {
+    z-index: 19;
+    top: -350px;
+    left: -250px;
+    transform: rotate(-20deg);
+}
+
+h1 {
+    z-index: 18;
+    top: -800px;
+    left: 190px;
+}
+
+p {
+    z-index: 14;
+    top: -900px;
+    left: 325px;
+    text-align: left;
+    color: aqua;
+}
+
+#kitty {
+    z-index: 10;
+    top: -1000px;
+    left: 40px;
+}
+
+#astronaut {
+    z-index: 2;
+    top: -1050px;
+    left: 100px;
+}
+
+#taco {
+    z-index: 16;
+    top: -900px;
+    left: -200px;
+}
+
+#guau {
+    z-index: 4;
+    top: -1200px;
+    left: 80px;
+    transform: rotate(8deg);
+    color: yellow;
+}
+
+
